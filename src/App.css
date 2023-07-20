@@ -1,51 +1,55 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+  font-family: "Markazi Text", "Karla", serif;
+}
+
+label,
+input,
+select,
+textarea,
+p {
+  font-family: "Karla";
+}
+
+input,
+select,
+option,
+textarea {
+  background-color: #eeeeee;
+  border: none;
+  padding: 5px 5px 5px 5px;
+  border-radius: 0.2rem;
+  resize: none;
+}
+
+input,
+select {
+  width: 10rem;
 }
 
 body {
-  font-family: 'Karla', sans-serif;
-  font-size: 16pt;
-  color: #333333;
+  margin: 0; /* removes white border around website*/
+  padding: 0;
+  margin-top: -22px;
 }
 
-input {
-  font-family: "karla", sans-serif;
-  font-size: 15px;
-  color: #333;
+menu {
+  list-style: none;
+  display: grid;
 }
 
-::placeholder {
-  color: #949494;
-  opacity: 1; /* Firefox */
+button {
+  background-color: white;
+  border: none;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
- color: #333333;
+.burger-icon {
+  margin-top: 1.5rem;
 }
 
-h1, h2 {
-  font-family: 'Markazi Text', serif;
-}
-
-h1 {
-  font-size: 64pt;
-}
-
-h2 {
-  font-size: 40pt;
-}
-
-h3 {
-  font-size: 18pt;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
+a:visited,
+Link:visited,
+a:link,
+Link:link {
   text-decoration: none;
-  color: #333333;
+  color: black;
 }
