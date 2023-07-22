@@ -1,5 +1,6 @@
 * {
   font-family: "Markazi Text", "Karla", serif;
+  /* border: 1px solid red; */
 }
 
 label,
@@ -347,6 +348,7 @@ footer > menu {
   color: white;
   padding-top: 0.2rem;
   font-family: "Karla", "Sans Serif";
+  
 }
 
 .footer-links > a:hover,
