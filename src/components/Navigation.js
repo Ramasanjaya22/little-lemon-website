@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import menuIcon from "../assets/menu.webp";
 import navLogo from "../assets/nav-logo.png";
 const Navigation = (props) => {
   return (
@@ -22,14 +21,7 @@ const Navigation = (props) => {
       <Link className="hover-effect" to="/about">
         <h1>About</h1>
       </Link>
-      <a
-        className="hover-effect"
-        href={menuIcon}
-        target="_blank"
-        rel="noreferrer"
-      >
-        <h1>Menu</h1>
-      </a>
+
       <Link className="hover-effect" to="/reservations">
         <h1>Reservations</h1>
       </Link>
