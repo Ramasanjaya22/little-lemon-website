@@ -49,6 +49,7 @@ const Booking = (props) => {
           type="text"
           id="lName"
           placeholder="Last Name"
+          required
           minLength={2}
           maxLength={50}
           value={lName}
@@ -121,6 +122,7 @@ const Booking = (props) => {
         <select
           id="occasion"
           value={occasion}
+          required
           onChange={(e) => setOccasion(e.target.value)}
         >
           <option>None</option>
@@ -136,6 +138,7 @@ const Booking = (props) => {
         <select
           id="preferences"
           value={preferences}
+          required
           onChange={(e) => setPreferences(e.target.value)}
         >
           <option>None</option>
@@ -158,7 +161,6 @@ const Booking = (props) => {
       </div>
 
       <div>
-        <br></br>
         <small>
           <p>
             Note: You cannot edit your reservation after submission. Please
@@ -166,7 +168,7 @@ const Booking = (props) => {
           </p>
         </small>
         <Link className="action-button" to="/confirmation">
-          Book Table
+          Make Your Reservation
         </Link>
       </div>
     </form>

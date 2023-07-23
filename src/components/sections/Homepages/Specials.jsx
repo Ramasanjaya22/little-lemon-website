@@ -3,7 +3,6 @@ import SpecialCard from "./SpecialCard";
 import GreekSalad from "../../../assets/food/greek-salad.jpg";
 import Bruschetta from "../../../assets/food/bruschetta.jpeg";
 import LemonDessert from "../../../assets/food/lemon-dessert.jpg";
-import { Carousel } from "react-responsive-carousel";
 const Specials = () => {
   return (
     <section className="specials">
@@ -40,10 +39,6 @@ Dressed with salt, hot pepper, and olive oil."
           description="Fresh baked lemon bread coated in salt and sugar. Powdered in citrus
          and lemon zest."
         />
-      </section>
-
-      <section className="specials-carousel">
-        <Carousel />
       </section>
     </section>
   );
